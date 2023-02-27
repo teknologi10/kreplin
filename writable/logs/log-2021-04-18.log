@@ -1,0 +1,77 @@
+CRITICAL - 2021-04-18 07:29:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jdih\app\Views\berita\detail.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('berita/detail', Array, true)
+#4 C:\xampp\htdocs\jdih\app\Controllers\Berita.php(56): view('berita/detail', Array)
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Berita->detail('Kulon Progo ber...')
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-18 07:30:12 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-18 22:35:22 --> Undefined variable: peraturan
+#0 C:\xampp\htdocs\jdih\app\Views\front\dashboard.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('front/dashboard', Array, true)
+#4 C:\xampp\htdocs\jdih\app\Controllers\Raperda.php(20): view('front/dashboard', Array)
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Raperda->index()
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Raperda))
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-18 22:36:12 --> Undefined offset: 2
+#0 C:\xampp\htdocs\jdih\app\Helpers\tanggal_helper.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\jdih\app\Views\raperda\raperda.php(38): tjs('1611162000')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('raperda/raperda', Array, true)
+#5 C:\xampp\htdocs\jdih\app\Controllers\Raperda.php(20): view('raperda/raperda', Array)
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Raperda->index()
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Raperda))
+#8 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-04-18 22:36:14 --> Undefined offset: 2
+#0 C:\xampp\htdocs\jdih\app\Helpers\tanggal_helper.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\jdih\app\Views\raperda\raperda.php(38): tjs('1611162000')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('raperda/raperda', Array, true)
+#5 C:\xampp\htdocs\jdih\app\Controllers\Raperda.php(20): view('raperda/raperda', Array)
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Raperda->index()
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Raperda))
+#8 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-04-18 22:37:23 --> Undefined variable: pager
+#0 C:\xampp\htdocs\jdih\app\Views\raperda\raperda.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('raperda/raperda', Array, true)
+#4 C:\xampp\htdocs\jdih\app\Controllers\Raperda.php(20): view('raperda/raperda', Array)
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Raperda->index()
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Raperda))
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-18 22:40:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jdih\app\Controllers\Berita.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Berita->detail('TATA CARA PEMIL...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}

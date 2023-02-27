@@ -1,0 +1,48 @@
+CRITICAL - 2022-07-30 07:23:39 --> Trying to access array offset on value of type null
+#0 /var/www/html/asesiku/app/Helpers/my_helper.php(173): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/asesiku/app/Views/admin/asesmen.php(62): skema()
+#2 /var/www/html/asesiku/system/View/View.php(214): include('/var/www/html/a...')
+#3 /var/www/html/asesiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/asesiku/app/Controllers/Admin.php(122): view()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->asesmen()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-30 09:40:05 --> Trying to access array offset on value of type null
+#0 /var/www/html/asesiku/app/Helpers/my_helper.php(173): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/asesiku/app/Views/admin/asesmen.php(62): skema()
+#2 /var/www/html/asesiku/system/View/View.php(214): include('/var/www/html/a...')
+#3 /var/www/html/asesiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/asesiku/app/Controllers/Admin.php(122): view()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->asesmen()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-30 10:52:04 --> Trying to access array offset on value of type null
+#0 /var/www/html/asesiku/app/Helpers/my_helper.php(173): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/asesiku/app/Views/admin/asesmen.php(62): skema()
+#2 /var/www/html/asesiku/system/View/View.php(214): include('/var/www/html/a...')
+#3 /var/www/html/asesiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/asesiku/app/Controllers/Admin.php(122): view()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->asesmen()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-30 23:57:45 --> Undefined offset: -1
+#0 /var/www/html/asesiku/app/Helpers/my_helper.php(161): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/asesiku/app/Views/admin/asesmen.php(59): tgl_lengkap()
+#2 /var/www/html/asesiku/system/View/View.php(214): include('/var/www/html/a...')
+#3 /var/www/html/asesiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/asesiku/app/Controllers/Admin.php(122): view()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->asesmen()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}

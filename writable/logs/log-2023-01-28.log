@@ -1,0 +1,467 @@
+CRITICAL - 2023-01-28 05:14:44 --> Invalid file: laporan/grafik.php
+#0 /var/www/html/umkmku/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/umkmku/app/Controllers/Laporan.php(11): view()
+#3 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#4 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-28 05:24:11 --> Undefined variable: tahun
+#0 /var/www/html/umkmku/app/Views/laporan/grafik.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#2 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(11): view()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-28 05:36:33 --> Undefined variable: tgl
+#0 /var/www/html/umkmku/app/Views/laporan/grafik.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#2 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(11): view()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-28 08:21:43 --> Undefined variable: ra
+#0 /var/www/html/umkmku/app/Views/laporan/grafik.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#2 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(11): view()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-28 08:47:22 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/app/Views/laporan/grafik.php(93): date()
+#2 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#3 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/umkmku/app/Controllers/Laporan.php(11): view()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-28 09:06:26 --> date() expects parameter 2 to be int, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/app/Views/laporan/grafik.php(147): date()
+#2 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#3 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/umkmku/app/Controllers/Laporan.php(11): view()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-28 09:07:40 --> date() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/app/Views/laporan/grafik.php(148): date()
+#2 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#3 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/umkmku/app/Controllers/Laporan.php(11): view()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-28 09:07:41 --> date() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/app/Views/laporan/grafik.php(148): date()
+#2 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#3 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/umkmku/app/Controllers/Laporan.php(11): view()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-28 09:38:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'Dec23'
+GROUP BY `tgl`' at line 4
+CRITICAL - 2023-01-28 09:38:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'Dec23'
+GROUP BY `tgl`' at line 4
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-28 09:39:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'Dec-23'
+GROUP BY `tgl`' at line 4
+CRITICAL - 2023-01-28 09:39:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'Dec-23'
+GROUP BY `tgl`' at line 4
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-28 09:39:52 --> Table 'umkmku.blibli' doesn't exist
+CRITICAL - 2023-01-28 09:39:52 --> Table 'umkmku.blibli' doesn't exist
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-28 09:40:10 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'umkmku.umum_blibli.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2023-01-28 09:40:10 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'umkmku.umum_blibli.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-28 09:41:07 --> A non-numeric value encountered
+#0 /var/www/html/umkmku/app/Controllers/Laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#2 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-28 09:46:02 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'umkmku.umum_blibli.tgl'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2023-01-28 09:46:02 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'umkmku.umum_blibli.tgl'; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-28 09:51:47 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/app/Controllers/Laporan.php(20): date_format()
+#2 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#3 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-01-28 10:03:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y), sum(penjualan) as jml
+FROM `umum_blibli`' at line 1
+CRITICAL - 2023-01-28 10:03:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y), sum(penjualan) as jml
+FROM `umum_blibli`' at line 1
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-28 10:03:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y)
+FROM `umum_blibli`' at line 1
+CRITICAL - 2023-01-28 10:03:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y)
+FROM `umum_blibli`' at line 1
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-28 10:03:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y)
+FROM `umum_blibli`' at line 1
+CRITICAL - 2023-01-28 10:03:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%Y)
+FROM `umum_blibli`' at line 1
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-28 10:09:57 --> Undefined variable: data
+#0 /var/www/html/umkmku/app/Controllers/Laporan.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#2 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-28 10:31:39 --> Undefined variable: total_pengunjung
+#0 /var/www/html/umkmku/app/Controllers/Tokped.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Tokped->simpanExcel()
+#2 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-28 14:35:33 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'umkmku.umum_tokped.pendapatan_bersih' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2023-01-28 14:35:33 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'umkmku.umum_tokped.pendapatan_bersih' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-28 14:36:17 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'umkmku.umum_tokped.pendapatan_bersih' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2023-01-28 14:36:17 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'umkmku.umum_tokped.pendapatan_bersih' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-28 14:45:14 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'umkmku.umum_tokped.tgl' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2023-01-28 14:45:14 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'umkmku.umum_tokped.tgl' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-28 14:48:08 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'umkmku.umum_tokped.tgl' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2023-01-28 14:48:08 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'umkmku.umum_tokped.tgl' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-28 15:16:41 --> syntax error, unexpected 'join' (T_STRING)
+#0 /var/www/html/umkmku/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/umkmku/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/umkmku/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-28 15:17:14 --> Column 'tgl' in field list is ambiguous
+CRITICAL - 2023-01-28 15:17:14 --> Column 'tgl' in field list is ambiguous
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-28 15:20:06 --> Column 'tgl' in where clause is ambiguous
+CRITICAL - 2023-01-28 15:20:06 --> Column 'tgl' in where clause is ambiguous
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-28 15:23:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN `umum_tokped` ON `umum_blibli`.`tgl`=`umum_tokped`.`tgl`
+WHERE `umum_' at line 3
+CRITICAL - 2023-01-28 15:23:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN `umum_tokped` ON `umum_blibli`.`tgl`=`umum_tokped`.`tgl`
+WHERE `umum_' at line 3
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-28 15:25:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN `umum_tokped` ON `umum_blibli`.`tgl`=`umum_tokped`.`tgl`
+WHERE `umum_' at line 3
+CRITICAL - 2023-01-28 15:25:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN `umum_tokped` ON `umum_blibli`.`tgl`=`umum_tokped`.`tgl`
+WHERE `umum_' at line 3
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-28 15:26:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN `umum_tokped` ON `umum_blibli`.`tgl`=`umum_tokped`.`tgl`
+WHERE `umum_' at line 3
+CRITICAL - 2023-01-28 15:26:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN `umum_tokped` ON `umum_blibli`.`tgl`=`umum_tokped`.`tgl`
+WHERE `umum_' at line 3
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-28 15:26:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN `umum_tokped` ON `umum_blibli`.`tgl`=`umum_tokped`.`tgl`
+WHERE `umum_' at line 3
+CRITICAL - 2023-01-28 15:26:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN `umum_tokped` ON `umum_blibli`.`tgl`=`umum_tokped`.`tgl`
+WHERE `umum_' at line 3
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-28 15:26:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN `umum_tokped` ON `umum_blibli`.`tgl`=`umum_tokped`.`tgl`
+WHERE `umum_' at line 3
+CRITICAL - 2023-01-28 15:26:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN `umum_tokped` ON `umum_blibli`.`tgl`=`umum_tokped`.`tgl`
+WHERE `umum_' at line 3
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-28 15:34:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN `umum_tokped` ON `umum_blibli`.`tgl`=`umum_tokped`.`tgl`
+WHERE `umum_' at line 3
+CRITICAL - 2023-01-28 15:34:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OUTER JOIN `umum_tokped` ON `umum_blibli`.`tgl`=`umum_tokped`.`tgl`
+WHERE `umum_' at line 3
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-28 15:52:36 --> syntax error, unexpected 'foreach' (T_FOREACH)
+#0 /var/www/html/umkmku/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/umkmku/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/umkmku/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-01-28 16:11:22 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'umkmku.grafik_temp.jual_blibli' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2023-01-28 16:11:22 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'umkmku.grafik_temp.jual_blibli' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Laporan.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Laporan->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-28 17:00:23 --> number_format() expects parameter 1 to be float, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/app/Helpers/my_helper.php(103): number_format()
+#2 /var/www/html/umkmku/app/Views/dashboard/index.php(62): nf()
+#3 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#4 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#6 /var/www/html/umkmku/app/Controllers/Dashboard.php(11): view()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#8 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-28 17:01:02 --> Undefined index: blibli
+#0 /var/www/html/umkmku/app/Helpers/my_helper.php(231): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/app/Views/dashboard/index.php(62): keuntungan()
+#2 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#3 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/umkmku/app/Controllers/Dashboard.php(11): view()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-28 17:01:23 --> Undefined index: blibli
+#0 /var/www/html/umkmku/app/Helpers/my_helper.php(231): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/app/Views/dashboard/index.php(62): keuntungan()
+#2 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#3 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/umkmku/app/Controllers/Dashboard.php(11): view()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-28 17:01:24 --> Undefined index: blibli
+#0 /var/www/html/umkmku/app/Helpers/my_helper.php(231): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/app/Views/dashboard/index.php(62): keuntungan()
+#2 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#3 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/umkmku/app/Controllers/Dashboard.php(11): view()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-28 17:04:37 --> Array to string conversion
+#0 /var/www/html/umkmku/app/Views/dashboard/index.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#2 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/umkmku/app/Controllers/Dashboard.php(11): view()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

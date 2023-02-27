@@ -1,0 +1,33 @@
+CRITICAL - 2022-09-13 21:06:35 --> Array to string conversion
+#0 /var/www/html/produksiku/app/Views/admin/lap_lhp.php(99): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/produksiku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/produksiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/produksiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/produksiku/app/Controllers/Admin.php(369): view()
+#5 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->lap_lhp()
+#6 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-13 21:06:38 --> Array to string conversion
+#0 /var/www/html/produksiku/app/Views/admin/lap_lhp.php(99): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/produksiku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/produksiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/produksiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/produksiku/app/Controllers/Admin.php(369): view()
+#5 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->lap_lhp()
+#6 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-13 21:40:20 --> Illegal string offset 'plant'
+#0 /var/www/html/produksiku/app/Views/admin/print_lap_lhp.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/produksiku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/produksiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/produksiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/produksiku/app/Controllers/Admin.php(387): view()
+#5 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#6 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

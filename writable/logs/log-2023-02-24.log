@@ -1,0 +1,85 @@
+CRITICAL - 2023-02-24 08:23:34 --> Undefined variable: tambah
+#0 /var/www/html/kreplin/app/Views/base/user.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kreplin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kreplin/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kreplin/app/Controllers/Base.php(32): view()
+#5 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Base->user()
+#6 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-24 08:24:25 --> Undefined variable: menu
+#0 /var/www/html/kreplin/app/Views/base/user.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kreplin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kreplin/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kreplin/app/Controllers/Base.php(32): view()
+#5 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Base->user()
+#6 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-24 08:24:26 --> Undefined variable: menu
+#0 /var/www/html/kreplin/app/Views/base/user.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kreplin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kreplin/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kreplin/app/Controllers/Base.php(32): view()
+#5 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Base->user()
+#6 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-24 08:24:45 --> Undefined variable: menu
+#0 /var/www/html/kreplin/app/Views/base/user.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kreplin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kreplin/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kreplin/app/Controllers/Base.php(32): view()
+#5 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Base->user()
+#6 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-24 08:24:47 --> Undefined variable: menu
+#0 /var/www/html/kreplin/app/Views/base/user.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kreplin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kreplin/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kreplin/app/Controllers/Base.php(32): view()
+#5 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Base->user()
+#6 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-24 08:24:55 --> Undefined index: nama
+#0 /var/www/html/kreplin/app/Views/base/user.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kreplin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kreplin/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kreplin/app/Controllers/Base.php(32): view()
+#5 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Base->user()
+#6 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-24 08:45:18 --> Undefined index: status
+#0 /var/www/html/kreplin/app/Controllers/User.php(98): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\User->hapus()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-02-24 09:24:00 --> Table 'kreplin.lhp' doesn't exist
+CRITICAL - 2023-02-24 09:24:00 --> Table 'kreplin.lhp' doesn't exist
+#0 /var/www/html/kreplin/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/kreplin/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/kreplin/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/kreplin/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/kreplin/app/Controllers/Admin.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

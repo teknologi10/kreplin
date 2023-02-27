@@ -1,0 +1,7 @@
+CRITICAL - 2023-02-14 14:08:11 --> Undefined variable: data
+#0 /var/www/html/umkmku/app/Controllers/Blibli.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Blibli->tambah()
+#2 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

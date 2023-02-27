@@ -1,0 +1,71 @@
+CRITICAL - 2023-02-21 08:51:35 --> Undefined variable: totalTime
+#0 /var/www/html/kreplin/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/Debug/Toolbar.php(413): include('/var/www/html/k...')
+#2 /var/www/html/kreplin/system/Debug/Toolbar.php(375): CodeIgniter\Debug\Toolbar->format()
+#3 /var/www/html/kreplin/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 /var/www/html/kreplin/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /var/www/html/kreplin/system/CodeIgniter.php(299): CodeIgniter\Events\Events::trigger()
+#6 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-21 08:51:41 --> Undefined variable: totalTime
+#0 /var/www/html/kreplin/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/Debug/Toolbar.php(413): include('/var/www/html/k...')
+#2 /var/www/html/kreplin/system/Debug/Toolbar.php(375): CodeIgniter\Debug\Toolbar->format()
+#3 /var/www/html/kreplin/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 /var/www/html/kreplin/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /var/www/html/kreplin/system/CodeIgniter.php(299): CodeIgniter\Events\Events::trigger()
+#6 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-21 09:04:08 --> Undefined variable: angka1
+#0 /var/www/html/kreplin/app/Views/website/tes.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/kreplin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/kreplin/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/kreplin/app/Controllers/Website.php(53): view()
+#5 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Website->tes()
+#6 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-21 09:37:28 --> Column 'username' cannot be null
+CRITICAL - 2023-02-21 09:37:28 --> Column 'username' cannot be null
+#0 /var/www/html/kreplin/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/kreplin/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/kreplin/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/kreplin/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/kreplin/app/Controllers/Website.php(27): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Website->mulai()
+#6 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-21 09:37:47 --> Column 'username' cannot be null
+CRITICAL - 2023-02-21 09:37:47 --> Column 'username' cannot be null
+#0 /var/www/html/kreplin/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/kreplin/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/kreplin/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/kreplin/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/kreplin/app/Controllers/Website.php(27): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Website->mulai()
+#6 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-21 11:54:38 --> Class 'App\Controllers\DateTime' not found
+#0 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Website->jawab()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-21 11:56:07 --> Call to a member function diff() on string
+#0 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Website->jawab()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-21 12:16:04 --> Call to a member function diff() on int
+#0 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Website->jawab()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}

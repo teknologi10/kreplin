@@ -1,0 +1,14 @@
+CRITICAL - 2022-08-10 10:43:40 --> Undefined variable: w
+#0 /var/www/html/produksiku/app/Controllers/Admin.php(145): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->cari_item()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-10 11:17:26 --> Undefined variable: kumulasi
+#0 /var/www/html/produksiku/app/Controllers/Admin.php(176): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->tambah_lhp()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

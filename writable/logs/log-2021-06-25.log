@@ -1,0 +1,48 @@
+CRITICAL - 2021-06-25 19:33:01 --> Undefined variable: hasil
+#0 C:\xampp\htdocs\jdih\app\Views\produk_hukum\produk_hukum.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('produk_hukum/pr...', Array, true)
+#4 C:\xampp\htdocs\jdih\app\Controllers\Produk_hukum.php(56): view('produk_hukum/pr...', Array)
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Produk_hukum->kategori('1')
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk_hukum))
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-25 19:33:30 --> Undefined variable: hasil
+#0 C:\xampp\htdocs\jdih\app\Views\produk_hukum\produk_hukum.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('produk_hukum/pr...', Array, true)
+#4 C:\xampp\htdocs\jdih\app\Controllers\Produk_hukum.php(56): view('produk_hukum/pr...', Array)
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Produk_hukum->kategori('3')
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk_hukum))
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-25 19:33:59 --> Undefined variable: hasil
+#0 C:\xampp\htdocs\jdih\app\Views\produk_hukum\produk_hukum.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('produk_hukum/pr...', Array, true)
+#4 C:\xampp\htdocs\jdih\app\Controllers\Produk_hukum.php(56): view('produk_hukum/pr...', Array)
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Produk_hukum->kategori('1')
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk_hukum))
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-25 19:34:36 --> Undefined variable: hasil
+#0 C:\xampp\htdocs\jdih\app\Views\produk_hukum\produk_hukum.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('produk_hukum/pr...', Array, true)
+#4 C:\xampp\htdocs\jdih\app\Controllers\Produk_hukum.php(56): view('produk_hukum/pr...', Array)
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Produk_hukum->kategori('1')
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk_hukum))
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

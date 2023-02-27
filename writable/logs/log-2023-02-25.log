@@ -1,0 +1,21 @@
+CRITICAL - 2023-02-25 20:52:06 --> Trying to access array offset on value of type null
+#0 /var/www/html/kreplin/app/Controllers/Website.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Website->jawab()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-25 21:14:08 --> Trying to access array offset on value of type null
+#0 /var/www/html/kreplin/app/Controllers/Website.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Website->jawab()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-25 21:35:04 --> Trying to access array offset on value of type null
+#0 /var/www/html/kreplin/app/Controllers/Website.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Website->jawab()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

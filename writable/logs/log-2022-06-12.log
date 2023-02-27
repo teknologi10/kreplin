@@ -1,0 +1,22 @@
+CRITICAL - 2022-06-12 21:31:12 --> Undefined variable: pekerjaan
+#0 /var/www/html/minyak/app/Views/admin/body.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(10): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 21:32:33 --> Undefined variable: pekerjaan
+#0 /var/www/html/minyak/app/Views/admin/body.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(10): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

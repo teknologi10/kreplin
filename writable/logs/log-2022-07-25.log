@@ -1,0 +1,135 @@
+CRITICAL - 2022-07-25 10:19:25 --> Invalid file: admin/asesi.php
+#0 /var/www/html/asesiku/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/asesiku/app/Controllers/Admin.php(19): view()
+#3 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->asesi()
+#4 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-25 10:32:23 --> syntax error, unexpected '}', expecting ';'
+#0 /var/www/html/asesiku/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/asesiku/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/asesiku/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-25 14:53:35 --> Table 'asesiku.koordinator' doesn't exist
+CRITICAL - 2022-07-25 14:53:35 --> Table 'asesiku.koordinator' doesn't exist
+#0 /var/www/html/asesiku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/asesiku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/asesiku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/asesiku/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/asesiku/app/Controllers/Admin.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->tambah_asesi()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-25 14:53:45 --> Column 'tgl_lahir' cannot be null
+CRITICAL - 2022-07-25 14:53:45 --> Column 'tgl_lahir' cannot be null
+#0 /var/www/html/asesiku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/asesiku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/asesiku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/asesiku/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/asesiku/app/Controllers/Admin.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->tambah_asesi()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-25 14:54:04 --> Undefined index: rt
+#0 /var/www/html/asesiku/app/Views/admin/asesi.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/asesiku/system/View/View.php(214): include('/var/www/html/a...')
+#2 /var/www/html/asesiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/asesiku/app/Controllers/Admin.php(19): view()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->asesi()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-25 15:06:25 --> Undefined variable: asesi
+#0 /var/www/html/asesiku/app/Views/admin/edit_asesi.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/asesiku/system/View/View.php(214): include('/var/www/html/a...')
+#2 /var/www/html/asesiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/asesiku/app/Controllers/Admin.php(66): view()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->edit_asesi()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-25 15:31:14 --> Undefined variable: id
+#0 /var/www/html/asesiku/app/Controllers/Admin.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->hapus_asesi()
+#2 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-25 15:36:16 --> Invalid file: admin/asesor.php
+#0 /var/www/html/asesiku/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/asesiku/app/Controllers/Admin.php(80): view()
+#3 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->asesor()
+#4 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-25 15:41:23 --> Invalid file: admin/tambah_asesor.php
+#0 /var/www/html/asesiku/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/asesiku/app/Controllers/Admin.php(94): view()
+#3 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->tambah_asesor()
+#4 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-25 20:55:32 --> Invalid file: admin/tambah_asesor.php
+#0 /var/www/html/asesiku/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/asesiku/app/Controllers/Admin.php(94): view()
+#3 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->tambah_asesor()
+#4 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-25 21:09:50 --> Invalid file: admin/tambah_asesor.php
+#0 /var/www/html/asesiku/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/asesiku/app/Controllers/Admin.php(94): view()
+#3 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->tambah_asesor()
+#4 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-25 21:12:31 --> Column 'jenis_kel' cannot be null
+CRITICAL - 2022-07-25 21:12:31 --> Column 'jenis_kel' cannot be null
+#0 /var/www/html/asesiku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/asesiku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/asesiku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/asesiku/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/asesiku/app/Controllers/Admin.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->tambah_asesi()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-25 21:15:00 --> Invalid file: admin/edit_asesor.php
+#0 /var/www/html/asesiku/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/asesiku/app/Controllers/Admin.php(111): view()
+#3 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->edit_asesor()
+#4 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-25 21:20:54 --> Invalid file: admin/edit_asesor.php
+#0 /var/www/html/asesiku/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/asesiku/app/Controllers/Admin.php(111): view()
+#3 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->edit_asesor()
+#4 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}

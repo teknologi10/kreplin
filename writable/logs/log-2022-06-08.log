@@ -1,0 +1,85 @@
+CRITICAL - 2022-06-08 08:17:38 --> insertBatch() called with no data
+#0 /var/www/html/keuangan/app/Controllers/Laporan.php(58): CodeIgniter\Database\BaseBuilder->insertBatch()
+#1 /var/www/html/keuangan/system/CodeIgniter.php(802): App\Controllers\Laporan->importFile()
+#2 /var/www/html/keuangan/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/keuangan/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/keuangan/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 08:21:02 --> Undefined variable: labelkantor
+#0 /var/www/html/keuangan/app/Views/dashboard/body.php(339): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/keuangan/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/keuangan/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/keuangan/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/keuangan/app/Controllers/Dashboard.php(94): view()
+#5 /var/www/html/keuangan/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#6 /var/www/html/keuangan/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/keuangan/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/keuangan/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 08:22:37 --> Undefined variable: labelkantor
+#0 /var/www/html/keuangan/app/Views/dashboard/body.php(339): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/keuangan/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/keuangan/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/keuangan/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/keuangan/app/Controllers/Dashboard.php(94): view()
+#5 /var/www/html/keuangan/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#6 /var/www/html/keuangan/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/keuangan/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/keuangan/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 08:24:36 --> Undefined variable: labelkantor
+#0 /var/www/html/keuangan/app/Views/dashboard/body.php(339): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/keuangan/system/View/View.php(214): include('/var/www/html/k...')
+#2 /var/www/html/keuangan/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/keuangan/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/keuangan/app/Controllers/Dashboard.php(94): view()
+#5 /var/www/html/keuangan/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#6 /var/www/html/keuangan/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/keuangan/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/keuangan/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 13:27:31 --> Invalid file: index.php
+#0 /var/www/html/keuangan/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/keuangan/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/keuangan/app/Controllers/Laporan.php(28): view()
+#3 /var/www/html/keuangan/system/CodeIgniter.php(802): App\Controllers\Laporan->importFile()
+#4 /var/www/html/keuangan/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/keuangan/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/keuangan/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 13:27:34 --> Invalid file: index.php
+#0 /var/www/html/keuangan/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/keuangan/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/keuangan/app/Controllers/Laporan.php(28): view()
+#3 /var/www/html/keuangan/system/CodeIgniter.php(802): App\Controllers\Laporan->importFile()
+#4 /var/www/html/keuangan/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/keuangan/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/keuangan/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 13:27:56 --> Invalid file: index.php
+#0 /var/www/html/keuangan/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/keuangan/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/keuangan/app/Controllers/Laporan.php(28): view()
+#3 /var/www/html/keuangan/system/CodeIgniter.php(802): App\Controllers\Laporan->importFile()
+#4 /var/www/html/keuangan/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/keuangan/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/keuangan/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 13:28:36 --> Invalid file: index.php
+#0 /var/www/html/keuangan/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/keuangan/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/keuangan/app/Controllers/Laporan.php(28): view()
+#3 /var/www/html/keuangan/system/CodeIgniter.php(802): App\Controllers\Laporan->importFile()
+#4 /var/www/html/keuangan/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/keuangan/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/keuangan/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 13:28:41 --> Invalid file: index.php
+#0 /var/www/html/keuangan/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/keuangan/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/keuangan/app/Controllers/Laporan.php(28): view()
+#3 /var/www/html/keuangan/system/CodeIgniter.php(802): App\Controllers\Laporan->importFile()
+#4 /var/www/html/keuangan/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/keuangan/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/keuangan/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}

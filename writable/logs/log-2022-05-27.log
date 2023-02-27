@@ -1,0 +1,878 @@
+CRITICAL - 2022-05-27 07:37:27 --> Cannot redeclare App\Controllers\Admin::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-27 07:38:05 --> Undefined variable: username
+#0 /var/www/html/land/app/Views/admin/header.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Admin.php(20): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 07:40:11 --> Undefined variable: username
+#0 /var/www/html/land/app/Views/admin/header.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Admin.php(20): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 07:40:59 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 07:41:33 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 07:41:34 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 07:41:35 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 07:41:36 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 07:42:15 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 07:42:16 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 07:42:16 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 07:42:17 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 07:42:17 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 07:42:17 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 07:42:17 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 07:42:18 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 07:42:18 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 07:42:18 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or '{'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 07:42:43 --> Undefined variable: username
+#0 /var/www/html/land/app/Views/dashboard/header.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Dashboard.php(14): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 07:43:16 --> Undefined variable: username
+#0 /var/www/html/land/app/Views/dashboard/header.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Dashboard.php(14): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 07:43:31 --> Undefined variable: level
+#0 /var/www/html/land/app/Views/dashboard/header.php(154): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Dashboard.php(14): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 07:45:01 --> Undefined variable: level
+#0 /var/www/html/land/app/Views/dashboard/header.php(154): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Dashboard.php(14): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 08:09:01 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/land/app/Controllers/Admin.php(30): view()
+#3 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff()
+#4 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 08:16:03 --> Undefined variable: validation
+#0 /var/www/html/land/app/Views/admin/staff_add.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Admin.php(39): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 08:34:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_max()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:35:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMAX()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:35:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMAX()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMAX()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMAX()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMAX()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMAX()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMAX()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMAX()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMAX()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMAX()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMAX()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:37:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectMax()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:41:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:41:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:41:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:41:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:41:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:41:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:41:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:41:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 08:42:35 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 /var/www/html/land/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/land/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/land/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 08:42:36 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 /var/www/html/land/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/land/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/land/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 08:45:21 --> substr() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/app/Controllers/Admin.php(37): substr()
+#2 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#3 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 08:46:10 --> substr() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/app/Controllers/Admin.php(37): substr()
+#2 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#3 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 08:46:11 --> substr() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/app/Controllers/Admin.php(37): substr()
+#2 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#3 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 08:46:12 --> substr() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/app/Controllers/Admin.php(37): substr()
+#2 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#3 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 08:46:12 --> substr() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/app/Controllers/Admin.php(37): substr()
+#2 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#3 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 08:46:25 --> substr() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/app/Controllers/Admin.php(37): substr()
+#2 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#3 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 08:46:26 --> substr() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/app/Controllers/Admin.php(37): substr()
+#2 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#3 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 08:46:58 --> substr() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/app/Controllers/Admin.php(37): substr()
+#2 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#3 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 08:46:59 --> substr() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/app/Controllers/Admin.php(37): substr()
+#2 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#3 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 08:52:54 --> Argument 2 passed to view() must be of the type array, int given, called in /var/www/html/land/app/Controllers/Admin.php on line 42
+#0 /var/www/html/land/app/Controllers/Admin.php(42): view()
+#1 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#2 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 08:52:55 --> Argument 2 passed to view() must be of the type array, int given, called in /var/www/html/land/app/Controllers/Admin.php on line 42
+#0 /var/www/html/land/app/Controllers/Admin.php(42): view()
+#1 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_add()
+#2 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-27 09:01:01 --> Unknown column 'staff_division' in 'field list'
+CRITICAL - 2022-05-27 09:01:01 --> Unknown column 'staff_division' in 'field list'
+#0 /var/www/html/land/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/land/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/land/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/land/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/land/app/Controllers/Admin.php(56): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_save()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 09:19:39 --> Undefined variable: permohonan
+#0 /var/www/html/land/app/Views/admin/staff.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Admin.php(31): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 09:19:41 --> Undefined variable: permohonan
+#0 /var/www/html/land/app/Views/admin/staff.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Admin.php(31): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 09:19:42 --> Undefined variable: permohonan
+#0 /var/www/html/land/app/Views/admin/staff.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Admin.php(31): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 09:19:43 --> Undefined variable: permohonan
+#0 /var/www/html/land/app/Views/admin/staff.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Admin.php(31): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 09:19:43 --> Undefined variable: permohonan
+#0 /var/www/html/land/app/Views/admin/staff.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Admin.php(31): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 09:19:43 --> Undefined variable: permohonan
+#0 /var/www/html/land/app/Views/admin/staff.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Admin.php(31): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 09:19:52 --> Undefined variable: s
+#0 /var/www/html/land/app/Views/admin/staff.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Admin.php(31): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 09:21:04 --> Undefined index: staff_posision
+#0 /var/www/html/land/app/Views/admin/staff.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Admin.php(31): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 09:21:05 --> Undefined index: staff_posision
+#0 /var/www/html/land/app/Views/admin/staff.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Admin.php(31): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 09:43:18 --> Too few arguments to function App\Controllers\Admin::staff_edit(), 0 passed in /var/www/html/land/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->staff_edit()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:56:24 --> Undefined variable: staff
+#0 /var/www/html/land/app/Views/staff/surveyor_edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Staff.php(63): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Staff->surveyor_edit()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 13:50:48 --> Undefined variable: get_staff
+#0 /var/www/html/land/app/Controllers/Home.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->register()
+#2 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 14:20:39 --> Undefined index: password
+#0 /var/www/html/land/app/Views/user/register.php(129): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Home.php(86): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->register()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 14:30:07 --> Invalid file: dashboard/tambah.php
+#0 /var/www/html/land/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/land/app/Controllers/Admin.php(21): view()
+#3 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#4 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 19:59:54 --> Undefined variable: id
+#0 /var/www/html/land/app/Views/user/report.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Home.php(42): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->report()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 21:44:45 --> Call to a member function move() on null
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->report()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 21:55:01 --> The original file is not a valid file.
+#0 /var/www/html/land/system/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /var/www/html/land/app/Controllers/Home.php(47): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->report()
+#3 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 21:56:27 --> The original file is not a valid file.
+#0 /var/www/html/land/system/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /var/www/html/land/app/Controllers/Home.php(47): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->report()
+#3 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 21:58:13 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in /var/www/html/land/app/Controllers/Home.php on line 41 and exactly 1 expected
+#0 /var/www/html/land/app/Controllers/Home.php(41): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->report()
+#2 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 21:58:52 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in /var/www/html/land/app/Controllers/Home.php on line 41 and exactly 1 expected
+#0 /var/www/html/land/app/Controllers/Home.php(41): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->report()
+#2 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 21:59:33 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in /var/www/html/land/app/Controllers/Home.php on line 41 and exactly 1 expected
+#0 /var/www/html/land/app/Controllers/Home.php(41): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->report()
+#2 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 22:13:52 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in /var/www/html/land/app/Controllers/Home.php on line 41 and exactly 1 expected
+#0 /var/www/html/land/app/Controllers/Home.php(41): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->report()
+#2 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 22:15:31 --> The original file is not a valid file.
+#0 /var/www/html/land/system/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /var/www/html/land/app/Controllers/Home.php(52): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->report()
+#3 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 22:56:00 --> syntax error, unexpected '$password' (T_VARIABLE)
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 22:56:01 --> syntax error, unexpected '$password' (T_VARIABLE)
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-27 22:58:11 --> Unknown column 'fatmaawati45@gmail.com' in 'where clause'
+CRITICAL - 2022-05-27 22:58:11 --> Unknown column 'fatmaawati45@gmail.com' in 'where clause'
+#0 /var/www/html/land/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/land/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/land/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/land/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/land/app/Controllers/Home.php(178): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->login_user()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 23:08:53 --> Undefined variable: user
+#0 /var/www/html/land/app/Controllers/Home.php(178): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->login_user()
+#2 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

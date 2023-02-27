@@ -1,0 +1,112 @@
+CRITICAL - 2021-04-11 17:55:25 --> whereIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(859): CodeIgniter\Database\BaseBuilder->_whereIn('id', '1100', false, 'AND ', NULL)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->whereIn('id', '1100')
+#2 C:\xampp\htdocs\jdih\app\Controllers\Berita.php(202): CodeIgniter\Model->__call('whereIn', Array)
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Berita->publikasi('1100')
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-11 19:57:57 --> var_dump() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'var_dump() expe...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\jdih\app\Controllers\Berita.php(32): var_dump()
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Berita->detail('Pendataan Kelua...')
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-11 22:06:28 --> Undefined index: hits
+#0 C:\xampp\htdocs\jdih\app\Controllers\Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Berita->detail('coba')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-11 22:09:46 --> Cannot use object of type App\Models\BeritaModel as array
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Berita->detail('coba')
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-11 22:12:22 --> Undefined index: hits
+#0 C:\xampp\htdocs\jdih\app\Controllers\Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Berita->detail('coba')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-11 22:12:49 --> Trying to get property 'hits' of non-object
+#0 C:\xampp\htdocs\jdih\app\Controllers\Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Berita->detail('coba')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-11 22:13:59 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$hits
+#0 C:\xampp\htdocs\jdih\app\Controllers\Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Berita->detail('coba')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-11 22:14:38 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$hits
+#0 C:\xampp\htdocs\jdih\app\Controllers\Berita.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Berita->detail('coba')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-11 22:15:19 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Berita->detail('coba')
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-11 22:17:29 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Berita->detail('coba')
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-11 22:18:45 --> Call to undefined method App\Models\BeritaModel::getResult
+#0 C:\xampp\htdocs\jdih\app\Controllers\Berita.php(30): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Berita->detail('coba')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-11 22:19:04 --> Call to undefined method App\Models\BeritaModel::getArray
+#0 C:\xampp\htdocs\jdih\app\Controllers\Berita.php(30): CodeIgniter\Model->__call('getArray', Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Berita->detail('coba')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-11 22:23:22 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to number
+#0 C:\xampp\htdocs\jdih\app\Controllers\Berita.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Berita->detail('coba')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-11 22:23:49 --> Call to undefined method App\Models\BeritaModel::result
+#0 C:\xampp\htdocs\jdih\app\Controllers\Berita.php(30): CodeIgniter\Model->__call('result', Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Berita->detail('coba')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}

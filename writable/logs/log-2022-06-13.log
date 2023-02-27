@@ -1,0 +1,745 @@
+CRITICAL - 2022-06-13 08:18:46 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/minyak/app/Controllers/Admin.php(10): view()
+#3 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#4 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 08:18:55 --> Undefined variable: no
+#0 /var/www/html/minyak/app/Views/admin/body.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(10): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 10:20:52 --> Cannot redeclare App\Controllers\Admin::hapus()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-13 10:21:16 --> Undefined variable: id
+#0 /var/www/html/minyak/app/Views/admin/kuota.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 10:21:50 --> Undefined variable: customer
+#0 /var/www/html/minyak/app/Views/admin/kuota.php(106): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 10:21:51 --> Undefined variable: customer
+#0 /var/www/html/minyak/app/Views/admin/kuota.php(106): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 10:21:52 --> Undefined variable: customer
+#0 /var/www/html/minyak/app/Views/admin/kuota.php(106): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 10:32:20 --> Undefined variable: validation
+#0 /var/www/html/minyak/app/Views/admin/kuota.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 10:32:30 --> Undefined variable: validation
+#0 /var/www/html/minyak/app/Views/admin/kuota.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 10:32:31 --> Undefined variable: validation
+#0 /var/www/html/minyak/app/Views/admin/kuota.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 10:46:29 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:46:36 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:46:37 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:04 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:05 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:05 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:05 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:05 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:06 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:06 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:06 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:06 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:07 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:07 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:07 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:23 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:24 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:25 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:25 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:25 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:47:26 --> Invalid numeric literal
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:50:11 --> Undefined index: no_kartu
+#0 /var/www/html/minyak/app/Views/admin/kuota.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 10:50:22 --> Undefined index: no_kartu
+#0 /var/www/html/minyak/app/Views/admin/kuota.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 10:50:24 --> Undefined index: no_kartu
+#0 /var/www/html/minyak/app/Views/admin/kuota.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 10:50:32 --> Undefined index: no_kartu
+#0 /var/www/html/minyak/app/Views/admin/kuota.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 10:52:57 --> Undefined index: no_kartu
+#0 /var/www/html/minyak/app/Views/admin/kuota.php(154): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 10:52:58 --> Undefined index: no_kartu
+#0 /var/www/html/minyak/app/Views/admin/kuota.php(154): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 10:55:42 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(183): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:55:53 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 10:56:39 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(188): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:56:40 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(188): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:56:58 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:56:58 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:56:59 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:56:59 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:56:59 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:57:00 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:57:00 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:57:00 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:57:07 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:57:08 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:57:08 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:57:08 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:57:09 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:57:10 --> Undefined variable: name
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(186): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/kuota.php(122): bulan()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(62): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->kuota()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 10:58:05 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 13:10:30 --> Undefined variable: kuota
+#0 /var/www/html/minyak/app/Views/admin/kuota.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(109): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->history()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 13:10:33 --> Undefined variable: kuota
+#0 /var/www/html/minyak/app/Views/admin/kuota.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(109): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->history()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 13:11:00 --> Undefined variable: kuota
+#0 /var/www/html/minyak/app/Views/admin/kuota.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(109): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->history()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-13 13:12:30 --> Table 'minyak.laporan' doesn't exist
+CRITICAL - 2022-06-13 13:12:30 --> Table 'minyak.laporan' doesn't exist
+#0 /var/www/html/minyak/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/minyak/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/minyak/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/minyak/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/minyak/app/Controllers/Laporan.php(89): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Laporan->laporan()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-13 13:15:55 --> Table 'keuangan.customer' doesn't exist
+CRITICAL - 2022-06-13 13:15:55 --> Table 'keuangan.customer' doesn't exist
+#0 /var/www/html/minyak/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/minyak/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/minyak/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/minyak/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-13 13:55:17 --> Unknown column 'kartu' in 'where clause'
+CRITICAL - 2022-06-13 13:55:17 --> Unknown column 'kartu' in 'where clause'
+#0 /var/www/html/minyak/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/minyak/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/minyak/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/minyak/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->add_history()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-13 13:55:19 --> Unknown column 'kartu' in 'where clause'
+CRITICAL - 2022-06-13 13:55:19 --> Unknown column 'kartu' in 'where clause'
+#0 /var/www/html/minyak/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/minyak/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/minyak/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/minyak/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->add_history()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 13:55:54 --> syntax error, unexpected ';', expecting ')'
+#0 /var/www/html/minyak/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/minyak/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/minyak/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 13:55:56 --> syntax error, unexpected ';', expecting ')'
+#0 /var/www/html/minyak/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/minyak/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/minyak/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 14:11:22 --> Undefined variable: customer
+#0 /var/www/html/minyak/app/Views/admin/detail_history.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(140): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->detail_history()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 14:11:56 --> Undefined variable: customer
+#0 /var/www/html/minyak/app/Views/admin/detail_history.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(140): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->detail_history()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 14:11:57 --> Undefined variable: customer
+#0 /var/www/html/minyak/app/Views/admin/detail_history.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(140): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->detail_history()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 14:12:02 --> Undefined variable: customer
+#0 /var/www/html/minyak/app/Views/admin/detail_history.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(140): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->detail_history()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 14:12:02 --> Undefined variable: customer
+#0 /var/www/html/minyak/app/Views/admin/detail_history.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(140): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->detail_history()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 14:12:03 --> Undefined variable: customer
+#0 /var/www/html/minyak/app/Views/admin/detail_history.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(140): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->detail_history()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 14:19:50 --> syntax error, unexpected '}', expecting ';'
+#0 /var/www/html/minyak/app/Controllers/BaseController.php(51): helper()
+#1 /var/www/html/minyak/system/CodeIgniter.php(780): App\Controllers\BaseController->initController()
+#2 /var/www/html/minyak/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#3 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 14:19:58 --> Using $this when not in object context
+#0 /var/www/html/minyak/app/Views/admin/body.php(112): kuota()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(18): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 14:20:00 --> Using $this when not in object context
+#0 /var/www/html/minyak/app/Views/admin/body.php(112): kuota()
+#1 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#2 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/minyak/app/Controllers/Admin.php(18): view()
+#5 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 14:20:26 --> Undefined index: kuota
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(194): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/body.php(112): kuota()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(18): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-13 14:20:59 --> Undefined index: id
+#0 /var/www/html/minyak/app/Helpers/my_helper.php(194): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/minyak/app/Views/admin/body.php(112): kuota()
+#2 /var/www/html/minyak/system/View/View.php(214): include('/var/www/html/m...')
+#3 /var/www/html/minyak/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/minyak/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/minyak/app/Controllers/Admin.php(18): view()
+#6 /var/www/html/minyak/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#7 /var/www/html/minyak/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/minyak/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/minyak/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}

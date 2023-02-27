@@ -1,0 +1,42 @@
+CRITICAL - 2023-02-16 14:47:43 --> Too few arguments to function App\Controllers\User::hapus(), 0 passed in /var/www/html/umkmku/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\User->hapus()
+#1 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-02-16 14:49:35 --> Table 'umkmku.lhp' doesn't exist
+CRITICAL - 2023-02-16 14:49:35 --> Table 'umkmku.lhp' doesn't exist
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Admin.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-16 14:49:49 --> Table 'umkmku.lhp' doesn't exist
+CRITICAL - 2023-02-16 14:49:49 --> Table 'umkmku.lhp' doesn't exist
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Admin.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-16 14:49:51 --> Table 'umkmku.lhp' doesn't exist
+CRITICAL - 2023-02-16 14:49:51 --> Table 'umkmku.lhp' doesn't exist
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Admin.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

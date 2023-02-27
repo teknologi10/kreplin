@@ -1,0 +1,265 @@
+CRITICAL - 2021-02-25 02:23:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jdih\app\Views\produk_hukum\tampil.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('produk_hukum/ta...', Array, true)
+#3 C:\xampp\htdocs\jdih\app\Controllers\Produk_hukum.php(26): view('produk_hukum/ta...', Array)
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Produk_hukum->tampil()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk_hukum))
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-25 02:28:31 --> Undefined variable: peraturan
+#0 C:\xampp\htdocs\jdih\app\Views\berita\tampil.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('berita/tampil', Array, true)
+#3 C:\xampp\htdocs\jdih\app\Controllers\Berita.php(46): view('berita/tampil', Array)
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Berita->tampil()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-25 19:40:24 --> Undefined property: App\Controllers\Perdes::$perdesModel
+#0 C:\xampp\htdocs\jdih\app\Controllers\Perdes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Perdes->tampil()
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perdes))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-25 19:41:34 --> Undefined property: App\Controllers\Perdes::$perdesModel
+#0 C:\xampp\htdocs\jdih\app\Controllers\Perdes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Perdes->tampil()
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perdes))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-25 19:42:54 --> Undefined index: kid
+#0 C:\xampp\htdocs\jdih\app\Views\perdes\tampil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('perdes/tampil', Array, true)
+#3 C:\xampp\htdocs\jdih\app\Controllers\Perdes.php(26): view('perdes/tampil', Array)
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Perdes->tampil()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perdes))
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-25 19:45:20 --> Undefined index: kid
+#0 C:\xampp\htdocs\jdih\app\Views\perdes\tampil.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('perdes/tampil', Array, true)
+#3 C:\xampp\htdocs\jdih\app\Controllers\Perdes.php(26): view('perdes/tampil', Array)
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Perdes->tampil()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perdes))
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-25 19:46:32 --> Undefined index: date
+#0 C:\xampp\htdocs\jdih\app\Views\perdes\tampil.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('perdes/tampil', Array, true)
+#3 C:\xampp\htdocs\jdih\app\Controllers\Perdes.php(26): view('perdes/tampil', Array)
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Perdes->tampil()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perdes))
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-25 20:10:59 --> Class 'App\Models\DesaModel' not found
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-25 20:11:02 --> Class 'App\Models\DesaModel' not found
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-25 20:11:07 --> Class 'App\Models\DesaModel' not found
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-25 20:11:45 --> Cannot declare class App\Models\PerdesModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-25 20:15:09 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Model.php(1184): CodeIgniter\Model->findAll(10, 0)
+#6 C:\xampp\htdocs\jdih\app\Controllers\Perdes.php(34): CodeIgniter\Model->paginate(10)
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Perdes->input()
+#8 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perdes))
+#9 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-02-25 20:16:01 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Model.php(1184): CodeIgniter\Model->findAll(10, 0)
+#6 C:\xampp\htdocs\jdih\app\Controllers\Perdes.php(34): CodeIgniter\Model->paginate(10)
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Perdes->input()
+#8 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perdes))
+#9 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-02-25 20:16:20 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Model.php(1184): CodeIgniter\Model->findAll(10, 0)
+#6 C:\xampp\htdocs\jdih\app\Controllers\Perdes.php(34): CodeIgniter\Model->paginate(10)
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Perdes->input()
+#8 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perdes))
+#9 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-02-25 20:44:00 --> Call to undefined method App\Models\PeraturanModel::num_rows
+#0 C:\xampp\htdocs\jdih\app\Controllers\Dashboard.php(15): CodeIgniter\Model->__call('num_rows', Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-25 20:44:59 --> Call to undefined method App\Models\PeraturanModel::num_rows
+#0 C:\xampp\htdocs\jdih\app\Controllers\Dashboard.php(15): CodeIgniter\Model->__call('num_rows', Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-25 20:45:09 --> Call to undefined method App\Models\PeraturanModel::num_rows
+#0 C:\xampp\htdocs\jdih\app\Controllers\Dashboard.php(15): CodeIgniter\Model->__call('num_rows', Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-25 20:45:57 --> Undefined variable: pd
+#0 C:\xampp\htdocs\jdih\app\Views\front\dashboard.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('front/dashboard', Array, true)
+#3 C:\xampp\htdocs\jdih\app\Controllers\Dashboard.php(19): view('front/dashboard', Array)
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-25 20:53:04 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('front/dashboard', Array, true)
+#2 C:\xampp\htdocs\jdih\app\Controllers\Dashboard.php(19): view('front/dashboard', Array)
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-02-25 20:54:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-25 20:54:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-25 20:54:44 --> Call to undefined method App\Models\PeraturanModel::num_rows
+#0 C:\xampp\htdocs\jdih\app\Controllers\Dashboard.php(15): CodeIgniter\Model->__call('num_rows', Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-25 20:55:10 --> Undefined variable: pd
+#0 C:\xampp\htdocs\jdih\app\Views\front\dashboard.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('front/dashboard', Array, true)
+#3 C:\xampp\htdocs\jdih\app\Controllers\Dashboard.php(20): view('front/dashboard', Array)
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-02-25 21:05:51 --> Call to undefined method App\Models\PeraturanModel::count
+#0 C:\xampp\htdocs\jdih\app\Controllers\Dashboard.php(15): CodeIgniter\Model->__call('count', Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-25 21:09:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-02-25 21:10:17 --> Call to undefined method App\Models\PeraturanModel::countRow
+#0 C:\xampp\htdocs\jdih\app\Controllers\Dashboard.php(16): CodeIgniter\Model->__call('countRow', Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-25 21:10:34 --> Call to undefined method App\Models\PeraturanModel::num_rows
+#0 C:\xampp\htdocs\jdih\app\Controllers\Dashboard.php(16): CodeIgniter\Model->__call('num_rows', Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-25 21:11:03 --> Call to undefined method App\Models\PeraturanModel::getRows
+#0 C:\xampp\htdocs\jdih\app\Controllers\Dashboard.php(16): CodeIgniter\Model->__call('getRows', Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-02-25 21:12:33 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

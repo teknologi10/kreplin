@@ -1,0 +1,69 @@
+CRITICAL - 2021-03-10 10:06:42 --> Undefined variable: peraturan
+#0 C:\xampp\htdocs\jdih\app\Views\user\tampil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('user/tampil', Array, true)
+#4 C:\xampp\htdocs\jdih\app\Controllers\User.php(14): view('user/tampil', Array)
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->index()
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-03-10 11:04:11 --> Undefined variable: kategori
+#0 C:\xampp\htdocs\jdih\app\Views\user\tambah.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('user/tambah', Array, true)
+#4 C:\xampp\htdocs\jdih\app\Controllers\User.php(25): view('user/tambah', Array)
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->input()
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-03-10 12:55:26 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-10 12:56:04 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-10 12:57:34 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-10 13:01:15 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\BaseModel.php(1202): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\BaseModel.php(729): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\jdih\app\Controllers\User.php(68): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\User->save()
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-03-10 13:51:17 --> Undefined variable: p
+#0 C:\xampp\htdocs\jdih\app\Views\produk_hukum\preview.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('produk_hukum/pr...', Array, true)
+#4 C:\xampp\htdocs\jdih\app\Controllers\Produk_hukum.php(127): view('produk_hukum/pr...', Array)
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Produk_hukum->preview('portof_1.pdf')
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk_hukum))
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-03-10 13:53:47 --> Array to string conversion
+#0 C:\xampp\htdocs\jdih\app\Views\produk_hukum\preview.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('produk_hukum/pr...', Array, true)
+#4 C:\xampp\htdocs\jdih\app\Controllers\Produk_hukum.php(127): view('produk_hukum/pr...', Array)
+#5 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Produk_hukum->preview('portof_1.pdf')
+#6 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk_hukum))
+#7 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jdih\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jdih\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

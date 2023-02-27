@@ -1,0 +1,87 @@
+CRITICAL - 2023-02-20 11:46:50 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/html/kreplin/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-20 11:50:26 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/html/kreplin/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-20 11:50:27 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/html/kreplin/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-20 11:50:35 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/html/kreplin/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-20 11:50:36 --> Undefined variable: data
+#0 /var/www/html/kreplin/app/Controllers/Website.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Website->index()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-20 11:50:37 --> Undefined variable: data
+#0 /var/www/html/kreplin/app/Controllers/Website.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Website->index()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-20 11:50:43 --> Undefined variable: data
+#0 /var/www/html/kreplin/app/Controllers/Website.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Website->index()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-20 11:50:44 --> Undefined variable: data
+#0 /var/www/html/kreplin/app/Controllers/Website.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Website->index()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-20 11:50:44 --> Undefined variable: data
+#0 /var/www/html/kreplin/app/Controllers/Website.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Website->index()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-20 11:50:45 --> Undefined variable: data
+#0 /var/www/html/kreplin/app/Controllers/Website.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Website->index()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-20 11:50:45 --> Undefined variable: data
+#0 /var/www/html/kreplin/app/Controllers/Website.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/CodeIgniter.php(802): App\Controllers\Website->index()
+#2 /var/www/html/kreplin/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/kreplin/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-20 11:50:47 --> unlink(/var/www/html/kreplin/writable/debugbar/debugbar_1676601949.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/kreplin/system/Debug/Toolbar/Collectors/History.php(74): unlink()
+#2 /var/www/html/kreplin/system/Debug/Toolbar.php(399): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+#3 /var/www/html/kreplin/system/Debug/Toolbar.php(375): CodeIgniter\Debug\Toolbar->format()
+#4 /var/www/html/kreplin/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /var/www/html/kreplin/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /var/www/html/kreplin/system/CodeIgniter.php(299): CodeIgniter\Events\Events::trigger()
+#7 /var/www/html/kreplin/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}

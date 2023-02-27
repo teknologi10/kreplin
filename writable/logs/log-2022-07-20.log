@@ -1,0 +1,228 @@
+ERROR - 2022-07-20 14:26:15 --> Table 'bank.laporan' doesn't exist
+CRITICAL - 2022-07-20 14:26:15 --> Table 'bank.laporan' doesn't exist
+#0 /var/www/html/bank/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/bank/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/bank/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/bank/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/bank/app/Controllers/Dashboard.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#6 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 14:26:36 --> Undefined variable: labeldivisi5
+#0 /var/www/html/bank/app/Views/dashboard/body.php(534): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/bank/system/View/View.php(214): include('/var/www/html/b...')
+#2 /var/www/html/bank/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/bank/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/bank/app/Controllers/Dashboard.php(94): view()
+#5 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#6 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 14:52:17 --> Undefined variable: labeldivisi5
+#0 /var/www/html/pilihanku/app/Views/dashboard/body.php(534): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/pilihanku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/pilihanku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/pilihanku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/pilihanku/app/Controllers/Dashboard.php(94): view()
+#5 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#6 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 14:54:02 --> Undefined variable: labeldivisi5
+#0 /var/www/html/pilihanku/app/Views/dashboard/body.php(534): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/pilihanku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/pilihanku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/pilihanku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/pilihanku/app/Controllers/Dashboard.php(94): view()
+#5 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#6 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 14:54:11 --> Undefined variable: label
+#0 /var/www/html/pilihanku/app/Views/dashboard/body.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/pilihanku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/pilihanku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/pilihanku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/pilihanku/app/Controllers/Dashboard.php(94): view()
+#5 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#6 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-20 19:33:41 --> Table 'pilihanku.laporan' doesn't exist
+CRITICAL - 2022-07-20 19:33:41 --> Table 'pilihanku.laporan' doesn't exist
+#0 /var/www/html/pilihanku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/pilihanku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/pilihanku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/pilihanku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/pilihanku/app/Controllers/Dashboard.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#6 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-20 19:35:34 --> Table 'pilihanku.m_company' doesn't exist
+CRITICAL - 2022-07-20 19:35:34 --> Table 'pilihanku.m_company' doesn't exist
+#0 /var/www/html/pilihanku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/pilihanku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/pilihanku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/pilihanku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/pilihanku/app/Controllers/Admin.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 19:36:45 --> Undefined variable: data
+#0 /var/www/html/pilihanku/app/Controllers/Admin.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#2 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-20 19:37:03 --> Undefined variable: id
+#0 /var/www/html/pilihanku/app/Views/admin/body.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/pilihanku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/pilihanku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/pilihanku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/pilihanku/app/Controllers/Admin.php(18): view()
+#5 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 19:44:21 --> Undefined variable: dosen
+#0 /var/www/html/pilihanku/app/Views/admin/body.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/pilihanku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/pilihanku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/pilihanku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/pilihanku/app/Controllers/Admin.php(10): view()
+#5 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 19:44:37 --> Undefined variable: mahasiswa
+#0 /var/www/html/pilihanku/app/Views/admin/body.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/pilihanku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/pilihanku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/pilihanku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/pilihanku/app/Controllers/Admin.php(10): view()
+#5 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 19:45:02 --> Undefined variable: id
+#0 /var/www/html/pilihanku/app/Views/admin/body.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/pilihanku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/pilihanku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/pilihanku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/pilihanku/app/Controllers/Admin.php(10): view()
+#5 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 19:45:21 --> Undefined variable: pengguna
+#0 /var/www/html/pilihanku/app/Views/admin/body.php(99): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/pilihanku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/pilihanku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/pilihanku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/pilihanku/app/Controllers/Admin.php(10): view()
+#5 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 19:46:57 --> Undefined variable: c
+#0 /var/www/html/pilihanku/app/Views/admin/body.php(101): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/pilihanku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/pilihanku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/pilihanku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/pilihanku/app/Controllers/Admin.php(10): view()
+#5 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 19:47:38 --> Undefined variable: c
+#0 /var/www/html/pilihanku/app/Views/admin/body.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/pilihanku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/pilihanku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/pilihanku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/pilihanku/app/Controllers/Admin.php(10): view()
+#5 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-20 21:32:59 --> Unknown column 'tempat' in 'field list'
+CRITICAL - 2022-07-20 21:32:59 --> Unknown column 'tempat' in 'field list'
+#0 /var/www/html/pilihanku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/pilihanku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/pilihanku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/pilihanku/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/pilihanku/app/Controllers/Admin.php(69): CodeIgniter\Database\BaseBuilder->insertBatch()
+#5 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Admin->importFile()
+#6 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:43:39 --> Invalid file: admin/dpt.php
+#0 /var/www/html/pilihanku/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/pilihanku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/pilihanku/app/Controllers/Admin.php(19): view()
+#3 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Admin->dpt()
+#4 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-20 21:46:31 --> Undefined variable: dpt
+#0 /var/www/html/pilihanku/app/Views/admin/dpt.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/pilihanku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/pilihanku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/pilihanku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/pilihanku/app/Controllers/Admin.php(19): view()
+#5 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Admin->dpt()
+#6 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 21:54:24 --> Undefined index: TPS
+#0 /var/www/html/pilihanku/app/Views/admin/dpt.php(129): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/pilihanku/system/View/View.php(214): include('/var/www/html/p...')
+#2 /var/www/html/pilihanku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/pilihanku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/pilihanku/app/Controllers/Admin.php(19): view()
+#5 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Admin->dpt()
+#6 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-20 22:04:03 --> insertBatch() called with no data
+#0 /var/www/html/pilihanku/app/Controllers/Admin.php(72): CodeIgniter\Database\BaseBuilder->insertBatch()
+#1 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Admin->importFile()
+#2 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-20 22:04:53 --> insertBatch() called with no data
+#0 /var/www/html/pilihanku/app/Controllers/Admin.php(72): CodeIgniter\Database\BaseBuilder->insertBatch()
+#1 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Admin->importFile()
+#2 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-20 22:13:27 --> insertBatch() called with no data
+#0 /var/www/html/pilihanku/app/Controllers/Admin.php(72): CodeIgniter\Database\BaseBuilder->insertBatch()
+#1 /var/www/html/pilihanku/system/CodeIgniter.php(802): App\Controllers\Admin->importFile()
+#2 /var/www/html/pilihanku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/pilihanku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/pilihanku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

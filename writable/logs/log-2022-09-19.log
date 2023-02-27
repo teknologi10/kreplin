@@ -1,0 +1,128 @@
+CRITICAL - 2022-09-19 18:02:40 --> Invalid file: cetak/pdf_rekomendasi.php
+#0 /var/www/html/produksiku/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/produksiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/produksiku/app/Controllers/Admin.php(440): view()
+#3 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#4 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-19 18:05:43 --> Invalid file: cetak/pdf_rekomendasi.php
+#0 /var/www/html/produksiku/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/produksiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/produksiku/app/Controllers/Admin.php(440): view()
+#3 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#4 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-19 18:18:45 --> Class 'TCPDF' not found
+#0 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#1 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-19 19:05:59 --> Class 'TCPDF' not found
+#0 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#1 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-19 19:06:14 --> Class 'TCPDF' not found
+#0 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#1 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-19 19:08:48 --> Class 'TCPDF' not found
+#0 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#1 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-19 19:08:49 --> Class 'TCPDF' not found
+#0 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#1 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-19 19:14:40 --> Class 'TCPDF' not found
+#0 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#1 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-19 19:14:48 --> Class 'TCPDF' not found
+#0 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#1 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-19 19:17:00 --> Class 'TCPDF' not found
+#0 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#1 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-19 20:31:36 --> Undefined variable: tahun
+#0 /var/www/html/produksiku/app/Controllers/Admin.php(470): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-19 21:19:58 --> Undefined variable: total
+#0 /var/www/html/produksiku/app/Controllers/Admin.php(411): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp_x()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-19 21:26:39 --> Undefined variable: cellspacingx
+#0 /var/www/html/produksiku/vendor/tecnickcom/tcpdf/tcpdf.php(18270): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/produksiku/app/Controllers/Admin.php(466): TCPDF->writeHTML()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#3 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-19 21:26:40 --> Undefined variable: cellspacingx
+#0 /var/www/html/produksiku/vendor/tecnickcom/tcpdf/tcpdf.php(18270): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/produksiku/app/Controllers/Admin.php(466): TCPDF->writeHTML()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#3 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-19 21:26:42 --> Undefined variable: cellspacingx
+#0 /var/www/html/produksiku/vendor/tecnickcom/tcpdf/tcpdf.php(18270): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/produksiku/app/Controllers/Admin.php(466): TCPDF->writeHTML()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#3 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-19 21:29:50 --> Undefined variable: cellspacingx
+#0 /var/www/html/produksiku/vendor/tecnickcom/tcpdf/tcpdf.php(18270): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/produksiku/app/Controllers/Admin.php(466): TCPDF->writeHTML()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#3 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-19 21:29:51 --> Undefined variable: cellspacingx
+#0 /var/www/html/produksiku/vendor/tecnickcom/tcpdf/tcpdf.php(18270): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/produksiku/app/Controllers/Admin.php(466): TCPDF->writeHTML()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#3 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-19 21:29:53 --> Undefined variable: cellspacingx
+#0 /var/www/html/produksiku/vendor/tecnickcom/tcpdf/tcpdf.php(18270): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/produksiku/app/Controllers/Admin.php(466): TCPDF->writeHTML()
+#2 /var/www/html/produksiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_lap_lhp()
+#3 /var/www/html/produksiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/produksiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/produksiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}

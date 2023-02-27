@@ -1,0 +1,182 @@
+CRITICAL - 2022-05-28 05:29:48 --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-28 05:37:53 --> Undefined property: App\Controllers\Home::$session
+#0 /var/www/html/land/app/Controllers/Home.php(187): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->login_user()
+#2 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 05:42:16 --> Call to undefined method CodeIgniter\Session\Session::set_userdata()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->login_user()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-28 05:45:44 --> Undefined property: App\Controllers\Home::$session
+#0 /var/www/html/land/app/Controllers/Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#2 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 05:46:50 --> Call to undefined method App\Controllers\Home::session()
+#0 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#1 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-28 06:11:53 --> syntax error, unexpected '}', expecting ')'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-28 06:12:08 --> syntax error, unexpected ';', expecting ')'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-28 06:12:33 --> syntax error, unexpected ';', expecting ')'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-28 06:12:35 --> syntax error, unexpected ';', expecting ')'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-28 06:13:03 --> syntax error, unexpected ')'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-28 06:13:04 --> syntax error, unexpected ')'
+#0 /var/www/html/land/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/land/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/land/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/html/land/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-28 06:23:53 --> Undefined index: surveyor_id
+#0 /var/www/html/land/app/Views/staff/miss_certif.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Staff.php(81): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Staff->miss_certif()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-28 06:50:47 --> Invalid file: staff/certificate.php
+#0 /var/www/html/land/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/land/app/Controllers/Staff.php(91): view()
+#3 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Staff->certif()
+#4 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:51:05 --> Undefined variable: miss_certif
+#0 /var/www/html/land/app/Views/staff/certif.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Staff.php(91): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Staff->certif()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-28 06:51:17 --> Undefined variable: certif
+#0 /var/www/html/land/app/Views/staff/certif.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Staff.php(91): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Staff->certif()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-28 08:00:43 --> Undefined variable: validation
+#0 /var/www/html/land/app/Views/staff/certif_add.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Staff.php(104): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Staff->certif_add()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-28 08:45:03 --> Unknown column 'staff_id' in 'where clause'
+CRITICAL - 2022-05-28 08:45:03 --> Unknown column 'staff_id' in 'where clause'
+#0 /var/www/html/land/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/land/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/land/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/land/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/land/app/Controllers/Home.php(209): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->login_admin()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-28 08:49:55 --> Object of class CodeIgniter\Session\Session could not be converted to string
+#0 /var/www/html/land/system/View/View.php(214): include()
+#1 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#3 /var/www/html/land/app/Controllers/Dashboard.php(14): view()
+#4 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#5 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-28 09:35:15 --> Undefined variable: certif
+#0 /var/www/html/land/app/Views/user/status.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/land/system/View/View.php(214): include('/var/www/html/l...')
+#2 /var/www/html/land/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/land/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/land/app/Controllers/Home.php(43): view()
+#5 /var/www/html/land/system/CodeIgniter.php(802): App\Controllers\Home->status()
+#6 /var/www/html/land/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/land/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/land/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

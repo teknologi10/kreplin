@@ -1,0 +1,112 @@
+CRITICAL - 2023-01-20 09:57:04 --> Undefined variable: validation
+#0 /var/www/html/umkmku/app/Views/register.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#2 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/umkmku/app/Controllers/Auth.php(19): view()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Auth->registrasi()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-20 09:59:39 --> Undefined variable: validation
+#0 /var/www/html/umkmku/app/Views/register.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#2 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/umkmku/app/Controllers/Auth.php(19): view()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Auth->registrasi()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-20 10:39:17 --> syntax error, unexpected end of file
+#0 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/umkmku/system/View/View.php(432): CodeIgniter\View\View->render()
+#2 /var/www/html/umkmku/app/Views/dashboard/index.php(1): CodeIgniter\View\View->include()
+#3 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#4 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#6 /var/www/html/umkmku/app/Controllers/Dashboard.php(11): view()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#8 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-20 10:39:29 --> syntax error, unexpected end of file
+#0 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/umkmku/system/View/View.php(432): CodeIgniter\View\View->render()
+#2 /var/www/html/umkmku/app/Views/dashboard/index.php(1): CodeIgniter\View\View->include()
+#3 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#4 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#6 /var/www/html/umkmku/app/Controllers/Dashboard.php(11): view()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Dashboard->index()
+#8 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-01-20 10:48:08 --> Table 'umkmku.user' doesn't exist
+CRITICAL - 2023-01-20 10:48:08 --> Table 'umkmku.user' doesn't exist
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/User.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\User->admin()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-20 10:50:52 --> Undefined variable: user
+#0 /var/www/html/umkmku/app/Views/user/index.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#2 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/umkmku/app/Controllers/User.php(12): view()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\User->admin()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-20 11:00:42 --> Undefined index: telepon
+#0 /var/www/html/umkmku/app/Views/user/index.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/umkmku/system/View/View.php(214): include('/var/www/html/u...')
+#2 /var/www/html/umkmku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/umkmku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/umkmku/app/Controllers/User.php(13): view()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\User->admin()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-20 11:15:14 --> Too few arguments to function App\Controllers\Admin::hapus_user(), 0 passed in /var/www/html/umkmku/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Admin->hapus_user()
+#1 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-01-20 11:15:26 --> Table 'umkmku.lhp' doesn't exist
+CRITICAL - 2023-01-20 11:15:26 --> Table 'umkmku.lhp' doesn't exist
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Admin.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-20 11:15:52 --> Table 'umkmku.lhp' doesn't exist
+CRITICAL - 2023-01-20 11:15:52 --> Table 'umkmku.lhp' doesn't exist
+#0 /var/www/html/umkmku/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/umkmku/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/umkmku/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/umkmku/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/umkmku/app/Controllers/Admin.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/umkmku/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/umkmku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/umkmku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/umkmku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

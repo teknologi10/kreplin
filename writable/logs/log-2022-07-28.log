@@ -1,0 +1,111 @@
+CRITICAL - 2022-07-28 13:13:30 --> Too few arguments to function App\Controllers\Admin::proses_skk(), 0 passed in /var/www/html/asesiku/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->proses_skk()
+#1 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-28 13:14:21 --> Too few arguments to function App\Controllers\Admin::proses_skk(), 0 passed in /var/www/html/asesiku/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->proses_skk()
+#1 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-28 13:24:54 --> Trying to access array offset on value of type null
+#0 /var/www/html/asesiku/app/Helpers/my_helper.php(173): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/asesiku/app/Views/admin/skk.php(65): skema()
+#2 /var/www/html/asesiku/system/View/View.php(214): include('/var/www/html/a...')
+#3 /var/www/html/asesiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/asesiku/app/Controllers/Admin.php(193): view()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->skk()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-28 13:25:35 --> Trying to access array offset on value of type null
+#0 /var/www/html/asesiku/app/Helpers/my_helper.php(173): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/asesiku/app/Views/admin/skk.php(65): skema()
+#2 /var/www/html/asesiku/system/View/View.php(214): include('/var/www/html/a...')
+#3 /var/www/html/asesiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#5 /var/www/html/asesiku/app/Controllers/Admin.php(193): view()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->skk()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-28 14:26:40 --> Undefined index: id_skk
+#0 /var/www/html/asesiku/app/Views/admin/print_skk.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/asesiku/system/View/View.php(214): include('/var/www/html/a...')
+#2 /var/www/html/asesiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/asesiku/app/Controllers/Admin.php(269): view()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_skk()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 20:22:11 --> Undefined index: nama_persahaan
+#0 /var/www/html/asesiku/app/Views/admin/print_skk.php(80): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/asesiku/system/View/View.php(214): include('/var/www/html/a...')
+#2 /var/www/html/asesiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/asesiku/app/Controllers/Admin.php(271): view()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_skk()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 21:24:30 --> Invalid file: admin/edit_skk.php
+#0 /var/www/html/asesiku/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/asesiku/app/Controllers/Admin.php(227): view()
+#3 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->edit_skk()
+#4 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-28 21:26:47 --> Undefined variable: asesi
+#0 /var/www/html/asesiku/app/Views/admin/edit_skk.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/asesiku/system/View/View.php(214): include('/var/www/html/a...')
+#2 /var/www/html/asesiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/asesiku/app/Controllers/Admin.php(227): view()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->edit_skk()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 21:27:22 --> Undefined variable: asesi
+#0 /var/www/html/asesiku/app/Views/admin/edit_skk.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/asesiku/system/View/View.php(214): include('/var/www/html/a...')
+#2 /var/www/html/asesiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/asesiku/app/Controllers/Admin.php(227): view()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->edit_skk()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 21:27:24 --> Undefined variable: asesi
+#0 /var/www/html/asesiku/app/Views/admin/edit_skk.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/asesiku/system/View/View.php(214): include('/var/www/html/a...')
+#2 /var/www/html/asesiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/asesiku/app/Controllers/Admin.php(227): view()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->edit_skk()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 21:36:13 --> Trying to access array offset on value of type null
+#0 /var/www/html/asesiku/app/Views/admin/print_skk.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/asesiku/system/View/View.php(214): include('/var/www/html/a...')
+#2 /var/www/html/asesiku/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/asesiku/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/asesiku/app/Controllers/Admin.php(295): view()
+#5 /var/www/html/asesiku/system/CodeIgniter.php(802): App\Controllers\Admin->print_skk()
+#6 /var/www/html/asesiku/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/asesiku/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/asesiku/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

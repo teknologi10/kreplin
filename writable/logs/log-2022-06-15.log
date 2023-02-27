@@ -1,0 +1,22 @@
+CRITICAL - 2022-06-15 08:42:08 --> Undefined index: nidn
+#0 /var/www/html/spk/app/Views/admin/mahasiswa.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/spk/system/View/View.php(214): include('/var/www/html/s...')
+#2 /var/www/html/spk/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/spk/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/spk/app/Controllers/Admin.php(115): view()
+#5 /var/www/html/spk/system/CodeIgniter.php(802): App\Controllers\Admin->mahasiswa()
+#6 /var/www/html/spk/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/spk/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/spk/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-15 08:42:31 --> Undefined index: nidn
+#0 /var/www/html/spk/app/Views/admin/mahasiswa.php(151): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/spk/system/View/View.php(214): include('/var/www/html/s...')
+#2 /var/www/html/spk/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/spk/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/spk/app/Controllers/Admin.php(115): view()
+#5 /var/www/html/spk/system/CodeIgniter.php(802): App\Controllers\Admin->mahasiswa()
+#6 /var/www/html/spk/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/spk/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/spk/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

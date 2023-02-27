@@ -1,0 +1,177 @@
+ERROR - 2022-06-21 13:19:26 --> Unknown column 'no_kartu' in 'field list'
+CRITICAL - 2022-06-21 13:19:26 --> Unknown column 'no_kartu' in 'field list'
+#0 /var/www/html/bank/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/bank/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/bank/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/bank/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/bank/app/Controllers/Admin.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->add_kantor()
+#6 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-21 13:19:26 --> Unknown column 'no_kartu' in 'field list'
+CRITICAL - 2022-06-21 13:19:26 --> Unknown column 'no_kartu' in 'field list'
+#0 /var/www/html/bank/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/bank/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/bank/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/bank/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/bank/app/Controllers/Admin.php(36): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->add_kantor()
+#6 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-21 13:26:30 --> Undefined index: namaat_ktr
+#0 /var/www/html/bank/app/Views/admin/body.php(215): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/bank/system/View/View.php(214): include('/var/www/html/b...')
+#2 /var/www/html/bank/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/bank/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/bank/app/Controllers/Admin.php(18): view()
+#5 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-21 13:55:46 --> A non-numeric value encountered
+#0 /var/www/html/bank/app/Controllers/Admin.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->produk()
+#2 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 13:56:05 --> A non-numeric value encountered
+#0 /var/www/html/bank/app/Controllers/Admin.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->produk()
+#2 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 13:56:07 --> A non-numeric value encountered
+#0 /var/www/html/bank/app/Controllers/Admin.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->produk()
+#2 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 14:16:11 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /var/www/html/bank/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/bank/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/bank/app/Controllers/Admin.php(76): view()
+#3 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->produk()
+#4 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-21 14:16:24 --> Undefined variable: c
+#0 /var/www/html/bank/app/Views/admin/produk.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/bank/system/View/View.php(214): include('/var/www/html/b...')
+#2 /var/www/html/bank/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/bank/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/bank/app/Controllers/Admin.php(76): view()
+#5 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->produk()
+#6 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-21 14:20:37 --> Table 'bank.dosen' doesn't exist
+CRITICAL - 2022-06-21 14:20:37 --> Table 'bank.dosen' doesn't exist
+#0 /var/www/html/bank/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/html/bank/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/bank/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/bank/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/bank/app/Controllers/Admin.php(88): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->add_produk()
+#6 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-21 14:22:06 --> syntax error, unexpected '$this' (T_VARIABLE), expecting ')'
+#0 /var/www/html/bank/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/bank/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/bank/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 14:22:36 --> syntax error, unexpected 'kode' (T_STRING), expecting ')'
+#0 /var/www/html/bank/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/bank/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/bank/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 14:30:46 --> Undefined index: kode_ktr
+#0 /var/www/html/bank/app/Controllers/Admin.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->hapus_produk()
+#2 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 14:31:37 --> Trying to access array offset on value of type null
+#0 /var/www/html/bank/app/Controllers/Admin.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->hapus_produk()
+#2 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 14:33:49 --> Trying to access array offset on value of type null
+#0 /var/www/html/bank/app/Controllers/Admin.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->hapus_produk()
+#2 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 14:38:15 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /var/www/html/bank/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/bank/system/Common.php(1092): CodeIgniter\View\View->render()
+#2 /var/www/html/bank/app/Controllers/Admin.php(76): view()
+#3 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->produk()
+#4 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-21 14:42:26 --> Undefined variable: kode_ktr
+#0 /var/www/html/bank/app/Controllers/Admin.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->edit_produk()
+#2 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 14:48:19 --> Cannot redeclare App\Controllers\Admin::add_produk()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-21 14:57:01 --> Undefined index: jenis_produk
+#0 /var/www/html/bank/app/Views/admin/visimisi.php(134): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/bank/system/View/View.php(214): include('/var/www/html/b...')
+#2 /var/www/html/bank/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/bank/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/bank/app/Controllers/Admin.php(130): view()
+#5 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->visimisi()
+#6 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-21 14:57:02 --> Undefined index: jenis_produk
+#0 /var/www/html/bank/app/Views/admin/visimisi.php(134): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/bank/system/View/View.php(214): include('/var/www/html/b...')
+#2 /var/www/html/bank/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/bank/system/Common.php(1092): CodeIgniter\View\View->render()
+#4 /var/www/html/bank/app/Controllers/Admin.php(130): view()
+#5 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->visimisi()
+#6 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-21 14:59:41 --> Trying to access array offset on value of type null
+#0 /var/www/html/bank/app/Controllers/Admin.php(167): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->hapus_visimisi()
+#2 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 15:02:59 --> Too few arguments to function App\Controllers\Admin::visimisi(), 0 passed in /var/www/html/bank/system/CodeIgniter.php on line 802 and exactly 1 expected
+#0 /var/www/html/bank/system/CodeIgniter.php(802): App\Controllers\Admin->visimisi()
+#1 /var/www/html/bank/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/bank/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/bank/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
