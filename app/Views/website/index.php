@@ -19,13 +19,13 @@
                                     <h3>Masukkan Username <br>Stangolden</h3>
                                 </div>
 
-                                <form action="<?= base_url() ?>/website/mulai" method="post">
+                                <form action="<?= base_url() ?>/website/pilih_waktu" method="post">
                                     <div class="form-group">
                                         <input type="text" class="form-control" name="username" placeholder="Username">
                                     </div>
 
-                                    <button type="submit" name="submit" value="1" class="default-btn">
-                                        Mulai
+                                    <button type="submit" name="submit" value="pilih_waktu" class="default-btn">
+                                        Login
                                     </button>
                                 </form>
                             </div>

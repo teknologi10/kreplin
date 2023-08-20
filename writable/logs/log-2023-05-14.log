@@ -1,0 +1,10 @@
+CRITICAL - 2023-05-14 14:30:21 --> unlink(D:\laragon\www\kreplin\writable\debugbar/debugbar_1683515920.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\larag...', 'D:\\laragon\\www\\...', 74, Array)
+#1 D:\laragon\www\kreplin\system\Debug\Toolbar\Collectors\History.php(74): unlink('D:\\laragon\\www\\...')
+#2 D:\laragon\www\kreplin\system\Debug\Toolbar.php(399): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1684049417, 20)
+#3 D:\laragon\www\kreplin\system\Debug\Toolbar.php(375): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 D:\laragon\www\kreplin\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 D:\laragon\www\kreplin\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 D:\laragon\www\kreplin\system\CodeIgniter.php(299): CodeIgniter\Events\Events::trigger('pre_system')
+#7 D:\laragon\www\kreplin\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}

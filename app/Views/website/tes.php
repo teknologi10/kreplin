@@ -9,7 +9,6 @@
                         <div class="col-lg-12">
                             <div class="quote-item" style="border-radius: 25px; margin:5px;">
                                 <div class="content text-end" style="margin: 5px;">
-                                    <br>
                                     <div class="option-item">
                                         <button class="default-btn">
                                             <h4 id="demo" class="text-white"></h4>
@@ -18,45 +17,47 @@
                                     </div>
                                     <!-- <img src="<?= base_url() ?>/theme/ketan/assets/img/main-banner/logo2.svg" class="white-image" width="250" alt="image"> -->
                                 </div>
-                                <div class="content" style="margin: 30px;">
-                                    <br>
-                                    <a href="#" class="optional-btn">
-                                        <h3><?= $angka1 ?> + <?= $angka2 ?> = <?= $hasil ?></h3>
-                                    </a>
-                                    <!-- <h3><?= $angka1 ?> + <?= $angka2 ?> = <?= $hasil ?></h3> -->
-                                </div>
-                                <form action="<?= base_url() ?>/website/jawab" method="post">
+                                <br>
+                                <!-- <form> -->
+                                <div class="soal">
                                     <input type="hidden" name="jawaban" value="<?= $jawaban ?>">
                                     <input type="hidden" name="id" value="<?= $id ?>">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <input type="radio" class="btn-check" name="jawab" value="0" id="danger-outlined" autocomplete="off">
-                                                <label class="btn btn-outline-danger" for="danger-outlined">
-                                                    <div class="content" style="margin: 20px;">
-                                                        <h3> Q</h3>
-                                                    </div>
-                                                </label>
-                                                <br>
-                                                <p class="btn btn-danger mt-2">Salah</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <input type="radio" class="btn-check" name="jawab" value="1" id="success-outlined" autocomplete="off">
-                                            <label class="btn btn-outline-success" for="success-outlined">
+                                    <div class="content" style="margin: 15px;">
+                                        <a href="#" class="optional-btn">
+                                            <h3><?= $angka1 ?> + <?= $angka2 ?> = <?= $hasil ?></h3>
+                                        </a>
+                                        <!-- <h3><?= $angka1 ?> + <?= $angka2 ?> = <?= $hasil ?></h3> -->
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input type="radio" class="btn-check" name="jawab" value="0" id="danger-outlined" autocomplete="off" onclick="check()">
+                                            <label class="btn btn-outline-danger" for="danger-outlined">
                                                 <div class="content" style="margin: 20px;">
-                                                    <h3> P</h3>
+                                                    <h3> Q</h3>
                                                 </div>
                                             </label>
                                             <br>
-                                            <p class="btn btn-success mt-2">Benar</p>
+                                            <p class="btn btn-danger mt-2">Salah</p>
                                         </div>
                                     </div>
-
-                                    <button id="info" type="submit" name="submit" value="submit" class="default-btn">
-                                        Enter
-                                    </button>
-                                </form>
+                                    <div class="col-lg-6">
+                                        <input type="radio" class="btn-check" name="jawab" value="1" id="success-outlined" autocomplete="off" onclick="check()">
+                                        <label class="btn btn-outline-success" for="success-outlined">
+                                            <div class="content" style="margin: 20px;">
+                                                <h3> P</h3>
+                                            </div>
+                                        </label>
+                                        <br>
+                                        <p class="btn btn-success mt-2">Benar</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <button id="info" class="col-10 default-btn" disabled onclick="jawabannya();">
+                                    Spasi
+                                </button>
+                                <!-- </form> -->
                             </div>
                         </div>
                     </div>
@@ -88,6 +89,12 @@
 <!-- End Main Banner Area -->
 <?= $this->include('website/footer') ?>
 <script>
+    function check() {
+        if ((document.getElementById('success-outlined').checked || (document.getElementById('danger-outlined').checked))) {
+            document.getElementById('info').disabled = false;
+        }
+    }
+
     // Set the date we're counting down to
     var countDownDate = new Date("<?php echo session('selesai') ?>").getTime();
 
@@ -121,13 +128,41 @@
             clearInterval(x);
             document.getElementById("demo").innerHTML = "SELESAI";
         }
+        check();
     }, 1000);
+</script>
+<script>
+    function jawabannya() {
+        var jawab = $("input:radio[name=jawab]:checked").val()
+        var jawaban = $("input:hidden[name=jawaban]").val()
+        if (jawab == undefined) {
+            // alert('salah');
+
+        } else {
+            // alert('benar');
+            $.ajax({
+                type: 'POST',
+                data: {
+                    jawab: jawab,
+                    jawaban: jawaban
+                    // kode_lapangan: kode_lapangan
+                },
+                url: "<?= base_url('website/jawab') ?>",
+                async: true,
+                success: function(data) {
+                    document.getElementById('success-outlined').checked = false;
+                    document.getElementById('danger-outlined').checked = false;
+                    $('.soal').html(data);
+                }
+            });
+        }
+    }
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript">
     $(window).keypress(function(e) {
         //Captures 'a' or 'b'
-        if (e.which == 113 || e.which == 112 || e.which == 13) {
+        if (e.which == 113 || e.which == 112 || e.which == 32) {
             switch (e.which) {
                 case 113:
                     $("#danger-outlined").prop("checked", true);
@@ -135,10 +170,22 @@
                 case 112:
                     $("#success-outlined").prop("checked", true);
                     break;
-                case 13:
+                case 32:
                     $("#info").click();
 
             }
+        }
+        check();
+    });
+
+    window.addEventListener('keydown', function() {
+        if (event.keyCode == 32) {
+            document.body.style.overflow = "hidden";
+        }
+    });
+    window.addEventListener('keyup', function() {
+        if (event.keyCode == 32) {
+            document.body.style.overflow = "auto";
         }
     });
 </script>

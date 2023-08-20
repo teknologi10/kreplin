@@ -134,7 +134,7 @@
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-                        <li class="nav-item <?php if ($uri->getSegment(4) == 'admin') {
+                        <li class="nav-item <?php if ($uri->getSegment(2) == 'admin') {
                                                 echo "has-treeview menu-open";
                                             } ?>">
                             <a href="<?= base_url(); ?>/dashboard" class="nav-link">
@@ -145,7 +145,7 @@
                             </a>
                         </li>
                         <li class="nav-header">Laporan</li>
-                        <li class="nav-item <?php if ($uri->getSegment(4) == 'permohonan') {
+                        <li class="nav-item <?php if ($uri->getSegment(2) == 'permohonan') {
                                                 echo "has-treeview menu-open";
                                             } ?>">
                             <a href="<?= base_url(); ?>/base/user" class="nav-link">
@@ -155,7 +155,7 @@
                                 </p>
                             </a>
                         </li>
-                        <li class="nav-item <?php if ($uri->getSegment(4) == 'permohonan') {
+                        <li class="nav-item <?php if ($uri->getSegment(2) == 'permohonan') {
                                                 echo "has-treeview menu-open";
                                             } ?>">
                             <a href="<?= base_url(); ?>/base/hasil_tes" class="nav-link">
@@ -165,7 +165,7 @@
                                 </p>
                             </a>
                         </li>
-                        <li class="nav-item <?php if ($uri->getSegment(4) == 'permohonan') {
+                        <li class="nav-item <?php if ($uri->getSegment(2) == 'permohonan') {
                                                 echo "has-treeview menu-open";
                                             } ?>">
                             <a href="<?= base_url(); ?>/auth/logout" class="nav-link">

@@ -37,5 +37,22 @@
 
     <link rel="icon" type="image/png" href="<?= base_url() ?>/theme/ketan/assets/img/favicon.png">
 </head>
+<style>
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Chrome, Safari and Opera */
+    body {
+        -ms-overflow-style: none;
+    }
+
+    /* IE and Edge */
+    html {
+        scrollbar-width: none;
+    }
+
+    /* Firefox */
+</style>
 
 <body>

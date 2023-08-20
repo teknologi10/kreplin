@@ -37,7 +37,7 @@
                 <!-- <p class="login-box-msg">Register a new membership</p> -->
                 <img src="<?= base_url() ?>/theme/ketan/assets/img/main-banner/logo.svg" alt="" class="img-fluid mb-4" style="width: 50%;">
                 <h1>Sign In</h1>
-                <form action="<?= base_url(); ?>/auth/verif" method="post">
+                <form action="<?= base_url(); ?>/dashboard" method="post">
                     <!-- <form action="<?= base_url(); ?>/admin" method="post"> -->
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Username" name="username" value="<?= old('username'); ?>">
